@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  height: 55px;
+  width: 55px;
+}
+
+.header-left a {
+  color: white;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-left a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: lightblue;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: lightblue;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  background-color: #dbf3f3d7;
+}
+
+.top-wrapper img {
+  height: 200px;
+  width: 200px;
+}
+
+.top-wrapper h1 {
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+}
+
+#about {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#about h2 {
+  font-size: 30px;
+}
+
+#about p {
+  font-size: 15px;
+  display: inline-block;
+}
+
+#achievment {
+  height: 800px;
+  background-color: #dbf3f3d7;
+}
+
+#achievment h2 {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+#achievment img {
+  width: 80%px;
+  height: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#contact {
+  padding: 100px 0 100px 0;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  papdding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #6c757d;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 3rem;
+}
